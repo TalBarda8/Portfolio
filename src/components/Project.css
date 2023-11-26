@@ -1,0 +1,61 @@
+ .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    font-family: 'Mooli', sans-serif;
+    flex-basis: calc(33.333% - 20px);
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+  
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.project a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #48a1e5;
+    color: white;
+    padding: 8px 16px;
+    margin: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.1s;
+    width: 120px;
+    height: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+  
+.project a:hover {
+    background-color: #3a7ca5;
+}
+  
+.project a:active {
+    transform: scale(0.95);
+}
+
+.project-skills {
+    font-size: 1rem;
+    margin: 10px 0;
+}  
+
+@media (max-width: 768px) {
+    .project {
+      flex-basis: calc(50% - 20px);
+    }
+  }
