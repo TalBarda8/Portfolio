@@ -10,8 +10,16 @@ function Project({ project }) {
       <div className="project-skills">
         <strong>Skills:</strong> {project.skills.join(", ")}
       </div>
-      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">Live Site</a>
-      <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      <div className="project-links">
+      {project.liveUrl ? 
+        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">Live Site</a> 
+        : null
+      }
+      {project.repoUrl ? 
+        <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a> 
+        : null
+      }
+      </div>
     </div>
   );
 }
