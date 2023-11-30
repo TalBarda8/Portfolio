@@ -1,35 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 .navbar {
-    background-color: #48a1e5;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed; 
+    width: 100%;
+    z-index: 3; 
 }
 
 .nav-links {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
 }
 
 .nav-links li {
-    margin: 0 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-links a {
-    color: white;
+    color: #333;
     text-decoration: none;
+    transition: color 0.3s ease;
     font-family: 'Inter', sans-serif;
-    font-size: 1.1rem;
-    display: flex;
-    align-items: center; 
 }
 
-.nav-links img {
+.image-container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links a img{
+    width: auto;
+    height: 30px;
+}
+
+.nav-links a:hover {
+    color: #87BBA2;
+}
+
+.nav-links a:hover .image-container {
+    filter: brightness(97%) invert(72%) sepia(13%) saturate(663%) hue-rotate(99deg) contrast(85%) ;
+    transition: filter 0.3s ease;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.hamburger-menu img {
+    width: auto;
     height: 40px;
-    vertical-align: middle;
+    margin-right: 25px;
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+    .nav-links li:nth-last-child(-n+3) {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: right;
+    }
+
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .nav-active {
+        display: flex;
+    }
 }

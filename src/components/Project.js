@@ -6,7 +6,7 @@ function Project({ project }) {
     <div className="project">
       <img src={project.imageUrl} alt={`Project titled ${project.title}`} />
       <h3>{project.title}</h3>
-      <p>{project.description}</p>
+      <p className='project-content'>{project.description}</p>
       <div className="project-skills">
         <strong>Skills:</strong> {project.skills.join(", ")}
       </div>

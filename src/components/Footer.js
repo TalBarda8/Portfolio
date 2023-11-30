@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css'; 
-import githubLogo from "../pics/github-mark.png";
-import linkedinLogo from "../pics/linkedinIcon.png"
-import itchIOLogo from "../pics/itchIOIcon.png"
+import githubLogo from "../pics/githubLogo.png";
+import linkedinLogo from "../pics/linkedinLogo.png";
+import cvImage from "../pics/cvImage.png";
 
 function Footer() {
     return (
@@ -21,7 +21,7 @@ function Footer() {
                     <img src={linkedinLogo} alt="Linkedin Logo" />
                 </a>
                 <a href="https://talbarda.itch.io/" target="_blank" rel="noopener noreferrer">
-                    <img src={itchIOLogo} alt="Itch.io Logo" />
+                    <img src={cvImage} alt="Itch.io Logo" />
                 </a>
             </div>
         </footer>
