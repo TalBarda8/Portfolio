@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     background-color: white;
     display: flex;
@@ -8,6 +13,9 @@
     position: fixed; 
     width: 100%;
     z-index: 3; 
+    top: 0; 
+    left: 0; 
+    right: 0;
 }
 
 .nav-links {
@@ -54,6 +62,10 @@
 
 .hamburger-menu {
     display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 4;
 }
 
 .hamburger-menu img {
@@ -69,26 +81,43 @@
 }
 
 @media (max-width: 767px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 10px 20px; 
+    }
+
     .nav-links {
         display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
         flex-direction: column;
-        align-items: stretch;
-        width: 100%;
+        align-items: flex-start;
+        background-color: white;
+        padding-top: 10px;
     }
 
     .nav-links li {
         width: 100%;
-        text-align: right;
+        text-align: left;
     }
 
     .hamburger-menu {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        top: 50%;
+        right: 0px;
+        z-index: 5;
     }
 
     .nav-active {
+        display: flex;
+    }
+
+    .nav-active .nav-links {
         display: flex;
     }
 }

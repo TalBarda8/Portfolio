@@ -1,5 +1,5 @@
 import React from "react";
-import './Header.css';
+import './Home.css';
 import HeaderImage from '../pics/headerPic.png';
 
 
