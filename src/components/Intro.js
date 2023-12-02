@@ -1,27 +1,54 @@
 import React from 'react';
 import './Intro.css';
 import TalImage from "../pics/TalImage.png";
+import SoftwareDevIcon from "../pics/softwareDevIcon.png"; 
+import FullstackDevIcon from "../pics/fullstuckDevIcon.png";
+import UnityDevIcon from "../pics/unityDevIcon.png";
 
 function Intro() {
     return (
         <section className="intro">
-            <div className="intro-text">
+            <div className="intro-header">
                 <h2>LET ME INTRODUCE MYSELF</h2>
-                <p>
-                My experience ranges widely, from full stack development to game development with Unity.
-                </p>
-                <p>
-                    I have experience with many aspects of full stack development, but I specialize in Node.js and React, along with related technologies like Express.js, Axios, SQL and noSQL databases and more. 
-                </p>
-                <p>
-                    In addition, I am a Unity game developer, crafting experiences in both 2D and 3D, as well as in virtual reality. My passion for gaming and technology drives me to constantly explore new frontiers in game development.
-                </p>
-                <p>
-                    Whether it's building web technologies, products, or immersive game experiences, I love the creative process and the opportunity to bring new ideas to life.
-                </p>
             </div>
-            <div className="intro-image">
-                <img src={TalImage} alt="Your Name" />
+            <div className="intro-content"> 
+                <div className="intro-profile">
+                    <img src={TalImage} alt="Tal Barda" className="intro-image" />
+                </div>
+                <div className="intro-description">
+                    <p>
+                    I'm a  <b>Fullstack Developer</b> building Web Applications. I'm using <b>React</b> framework for the frontend and <b>NodeJS</b> for backend.
+                    </p>
+                    <p>
+                    I'm also a <b>Game Developer</b> using <b>Unity engine</b> to build games in 2D, 3D and VR. You can find more of my games on my <a href='https://talbarda.itch.io/'><b>itch.io profile</b></a>.
+                    </p>
+                    <p>
+                    I'm interested in jobs where I can learn, grow, and contribute. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+                    </p>
+                </div>
+            </div>
+            <div className="expertise-container">
+                <div className="expertise">
+                    <div className="expertise-header">
+                        <img src={SoftwareDevIcon} alt="Software Development" className="expertise-icon" />
+                        <h3>Software<br/>Development</h3>
+                    </div>
+                    <p>Experienced in both OOP and functional: C#, Python, Java, C++, C.</p>
+                </div>
+                <div className="expertise">
+                    <div className="expertise-header">
+                        <img src={FullstackDevIcon} alt="Fullstack Development" className="expertise-icon" />
+                        <h3>Fullstack Dev<br/>React, NodeJS</h3>
+                    </div>
+                    <p>Development experience in HTML, CSS, JS, React and NodeJS frameworks as Express.js, Socket.io and REST APIs.</p>
+                </div>
+                <div className="expertise">
+                    <div className="expertise-header">
+                        <img src={UnityDevIcon} alt="Unity Development" className="expertise-icon" />
+                        <h3>Unity Dev<br/>2D, 3D, VR</h3>
+                    </div>
+                    <p>Skilled in developing gaming experiences and interactive applications using Unity.</p>
+                </div>
             </div>
         </section>
     );

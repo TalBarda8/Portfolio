@@ -29,7 +29,7 @@ function NavBar() {
                     </div>
                 </a></li>
                 <li><a href="https://www.linkedin.com/in/talbarda/" target="_blank" rel="noopener noreferrer">
-                    <div className="image-container">
+                    <div id='linkedin-logo' className="image-container">
                         <img src={linkedinLogo} alt="LinkedIn Logo" />
                     </div>
                 </a></li>

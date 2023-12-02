@@ -52,12 +52,16 @@ body, html {
 }
 
 .nav-links a:hover {
-    color: #87BBA2;
+    color: #a3abb0;
 }
 
 .nav-links a:hover .image-container {
-    filter: brightness(97%) invert(72%) sepia(13%) saturate(663%) hue-rotate(99deg) contrast(85%) ;
+    filter: brightness(91%) invert(73%) sepia(14%) saturate(135%) hue-rotate(159deg) contrast(90%) ;
     transition: filter 0.3s ease;
+}
+
+#linkedin-logo:hover {
+    filter: brightness(94%) invert(33%) sepia(48%) saturate(2050%) hue-rotate(174deg) contrast(101%) ;
 }
 
 .hamburger-menu {
