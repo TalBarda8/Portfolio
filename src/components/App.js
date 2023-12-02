@@ -2,8 +2,9 @@ import React from 'react';
 import Home from './Home';
 import NavBar from './NavBar';
 import Intro from './Intro';
-import Footer from './Footer';
 import ProjectsList from './ProjectList';
+import Footer from './Footer';
+
 
 function App() {
   return (

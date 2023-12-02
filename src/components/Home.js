@@ -3,16 +3,17 @@ import './Home.css';
 import ScrollIndicator from '../pics/scrollIndicator.gif';
 
 
-function Header() {
+function Home() {
     return (
-        <header className="header">
+        <header id="home" className="header">
             <div className="header-content">
                 <h1>TAL BARDA</h1>
                 <p>SOFTWARE ENGINEER, FULL STUCK & GAME DEVELOPER.</p>
-                <img src={ScrollIndicator} alt="Scroll down" className="scroll-down-indicator"/>
+                <a href="#about"><img src={ScrollIndicator} alt="Scroll down" className="scroll-down-indicator"/></a>
+                
             </div>
         </header>
     );
 }
 
-export default Header;
+export default Home;
