@@ -10,7 +10,6 @@ function Home() {
                 <h1>TAL BARDA</h1>
                 <p>SOFTWARE ENGINEER, FULL STUCK & GAME DEVELOPER.</p>
                 <a href="#about"><img src={ScrollIndicator} alt="Scroll down" className="scroll-down-indicator"/></a>
-                
             </div>
         </header>
     );

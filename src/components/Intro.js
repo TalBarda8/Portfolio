@@ -17,7 +17,7 @@ function Intro() {
                 </div>
                 <div className="intro-description">
                     <p>
-                    I'm a  <b>Fullstack Developer</b> building web applications. I'm using <b>React</b> framework for the frontend and <b>NodeJS</b> for the backend.
+                    I'm a  <b>Fullstack Developer</b> building web applications, using <b>React</b> framework for the frontend and <b>NodeJS</b> for the backend.
                     </p>
                     <p>
                     I'm also a <b>Game Developer</b> using <b>Unity engine</b> to build games in 2D, 3D and VR. You can find more of my games on my <a href='https://talbarda.itch.io/'><b>itch.io profile</b></a>.

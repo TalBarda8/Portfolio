@@ -55,4 +55,20 @@
     .scroll-down-indicator {
         display: none;
     }
+
+    .header-content h1 {
+        font-size: 18vw;
+        font-weight: 700;
+        margin: 0;
+        font-family: 'Oswald', sans-serif;
+        line-height: 0.8;
+        margin-bottom: 28rem;
+        margin-top: 2rem;
+    }
+    
+    .header-content p {
+        font-size: 7vw;
+        font-weight: 500;
+        font-family: 'Oswald', sans-serif;
+    }
 }

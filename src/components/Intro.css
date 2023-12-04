@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 .intro {
-    background-color: rgb(224, 225, 227);
+    background-color: #e9ecf2;
     color: #000;
     font-family: 'Poppins', sans-serif;
     padding-top: 3rem;
@@ -74,6 +74,7 @@
     border: 2px solid #000;
     min-height: 200px;
     box-sizing: border-box;
+    background-color: #ffffff;
 }
 
 .expertise-header {
