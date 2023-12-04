@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import './NavBar.css';
+import humburgerMenuImage from "../pics/humburgerMenuImage.png";
 import githubLogo from "../pics/githubLogo.png";
 import linkedinLogo from "../pics/linkedinLogo.png";
 import cvImage from "../pics/cvImage.png";
-import humburgerMenuImage from "../pics/humburgerMenuImage.png";
 import cvPDF from "../pics/Tal-Barda-CV.pdf";
 
 function NavBar() {
@@ -33,7 +33,7 @@ function NavBar() {
                         <img src={linkedinLogo} alt="LinkedIn Logo" />
                     </div>
                 </a></li>
-                <li><a href={cvPDF} download="Tal Barda - CV" target="_blank" rel="noopener noreferrer">
+                <li><a href={cvPDF} download="Tal Barda CV" target="_blank" rel="noopener noreferrer">
                     <div className="image-container">
                         <img src={cvImage} alt="CV download" />
                     </div>
