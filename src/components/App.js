@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Home';
 import NavBar from './NavBar';
 import Intro from './Intro';
-import ProjectsList from './ProjectList';
+import ProjectsList from './ProjectsList';
 import Footer from './Footer';
 
 
@@ -12,8 +12,8 @@ function App() {
       <NavBar />
       <Home />
       <Intro />
-      {/* <ProjectsList />
-      <Footer /> */}
+      <ProjectsList />
+      {/* <Footer /> */}
     </div>
   );
 }
