@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.00b8e190.css",
+    "main.js": "/Portfolio/static/js/main.179bc9e8.js",
+    "static/media/backgroundPicture.jpg": "/Portfolio/static/media/backgroundPicture.1cc869be91bf3f3b6e15.jpg",
+    "static/media/TalImage.png": "/Portfolio/static/media/TalImage.80c501931be685258fc5.png",
+    "static/media/codingWebAppImage.png": "/Portfolio/static/media/codingWebAppImage.0236af8bb07727d49d30.png",
+    "static/media/cocktailAppImage.png": "/Portfolio/static/media/cocktailAppImage.bae8a4dbdcebaf0d92ee.png",
+    "static/media/escapeRoomImage.png": "/Portfolio/static/media/escapeRoomImage.4d6ad03e29e65382ccce.png",
+    "static/media/bookShelfAppImage.png": "/Portfolio/static/media/bookShelfAppImage.1d6f53b623a8f09d9810.png",
+    "static/media/weatherBoxImage.jpg": "/Portfolio/static/media/weatherBoxImage.aebb485e69c6e880b8f6.jpg",
+    "static/media/scrollIndicator.gif": "/Portfolio/static/media/scrollIndicator.0e7c74fa968a01056d8c.gif",
+    "static/media/Tal-Barda-CV.pdf": "/Portfolio/static/media/Tal-Barda-CV.ec254917f9f8ba6b14f7.pdf",
+    "static/media/chessImage.png": "/Portfolio/static/media/chessImage.771b30016f7d605dd88f.png",
+    "static/media/kitchefImage.jpeg": "/Portfolio/static/media/kitchefImage.e29561fa53f5ec1afe80.jpeg",
+    "static/media/double-bubble-outline.webp": "/Portfolio/static/media/double-bubble-outline.081fc273238200492e98.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.00b8e190.css.map": "/Portfolio/static/css/main.00b8e190.css.map",
+    "main.179bc9e8.js.map": "/Portfolio/static/js/main.179bc9e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00b8e190.css",
+    "static/js/main.179bc9e8.js"
+  ]
+}
