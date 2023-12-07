@@ -18,6 +18,15 @@ const projects = [
       },
       {
         year: "2023",
+        title: "Personal Website",
+        description: "My personal website (this website). Built with React.js.",
+        skills: ["HTML", "JavaScript", "CSS", "React.js"],
+        imageUrl: null,
+        liveUrl: "https://talbarda.co.il/",
+        repoUrl: "https://github.com/TalBarda8/Portfolio",
+      },
+      {
+        year: "2023",
         title: "Online Coding Web App",
         description: "Collaborative code editor that allows multiple users to interact in real-time. Built with React for the frontend and Express for the backend, it also leverages Socket.io to maintain real-time communication between clients and the server.",
         skills: ["Node.js", "Express.js", "React.js", "Socket.io", "Axios", "MongoDB"],
