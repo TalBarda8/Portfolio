@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3cbcfbe.css",
-    "main.js": "/static/js/main.215b7f4a.js",
+    "main.js": "/static/js/main.60b5f004.js",
     "static/media/backgroundPicture.jpg": "/static/media/backgroundPicture.1cc869be91bf3f3b6e15.jpg",
     "static/media/TalImage.png": "/static/media/TalImage.80c501931be685258fc5.png",
     "static/media/codingWebAppImage.png": "/static/media/codingWebAppImage.0236af8bb07727d49d30.png",
@@ -10,16 +10,16 @@
     "static/media/bookShelfAppImage.png": "/static/media/bookShelfAppImage.1d6f53b623a8f09d9810.png",
     "static/media/weatherBoxImage.jpg": "/static/media/weatherBoxImage.aebb485e69c6e880b8f6.jpg",
     "static/media/scrollIndicator.gif": "/static/media/scrollIndicator.0e7c74fa968a01056d8c.gif",
-    "static/media/Tal-Barda-CV.pdf": "/static/media/Tal-Barda-CV.ec254917f9f8ba6b14f7.pdf",
+    "static/media/Tal-Barda-CV.pdf": "/static/media/Tal-Barda-CV.89ff2b1042dcb2799ce8.pdf",
     "static/media/chessImage.png": "/static/media/chessImage.771b30016f7d605dd88f.png",
     "static/media/kitchefImage.jpeg": "/static/media/kitchefImage.e29561fa53f5ec1afe80.jpeg",
     "static/media/double-bubble-outline.webp": "/static/media/double-bubble-outline.081fc273238200492e98.webp",
     "index.html": "/index.html",
     "main.e3cbcfbe.css.map": "/static/css/main.e3cbcfbe.css.map",
-    "main.215b7f4a.js.map": "/static/js/main.215b7f4a.js.map"
+    "main.60b5f004.js.map": "/static/js/main.60b5f004.js.map"
   },
   "entrypoints": [
     "static/css/main.e3cbcfbe.css",
-    "static/js/main.215b7f4a.js"
+    "static/js/main.60b5f004.js"
   ]
 }
